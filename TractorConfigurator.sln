@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TractorConfigurator", "TractorConfigurator\TractorConfigurator.csproj", "{B7463457-F826-4611-99E6-B90361357B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7463457-F826-4611-99E6-B90361357B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7463457-F826-4611-99E6-B90361357B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7463457-F826-4611-99E6-B90361357B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7463457-F826-4611-99E6-B90361357B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C38F914-901A-42F4-AC2C-A33F18E36DB7}
+	EndGlobalSection
+EndGlobal
