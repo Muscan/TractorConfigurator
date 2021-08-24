@@ -30,7 +30,7 @@ namespace TractorConfigurator
         public static void SetModels(List<Models> models)
         {
             Models model = new Models();
-            models.Add(new Models { Name = "Universal 650", Price = 2, HorsePower = 45 });
+            models.Add(new Models { Name = "Universal 650", Price = 4000, HorsePower = 45 });
             models.Add(new Models { Name = "Case", Price = 50000, HorsePower = 450 });
             models.Add(new Models { Name = "John Deere", Price = 200000, HorsePower = 1200 });
     
@@ -54,5 +54,12 @@ namespace TractorConfigurator
             lblSumOptions.Text = "Price: " + sum;//afisam prin Label
             lblSumOptions.Visible = true;
         }
+
+         public static void DeliveryOptions(RadioButton rdo1, RadioButton rdo2, Options option1, Options option2)
+        {
+              rdo1.Text = option1.Delivery;
+              rdo2.Text = option2.Delivery;
+        }
+      
     }
 }
